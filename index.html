@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta 
+      name="viewport" 
+      content="width=device-width, 
+               initial-scale=1.0, 
+               maximum-scale=1.0, 
+               user-scalable=no">
+    <title>Diplom</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <div class="wrap">
+
+        @@include('../templates/header.html')
+        @@include('../templates/about.html')
+        @@include('../templates/journal.html')
+        @@include('../templates/order.html')
+        @@include('../templates/work.html')
+        @@include('../templates/travel.html')
+        @@include('../templates/gallery.html')
+        @@include('../templates/investors.html')
+        @@include('../templates/clients.html')
+        @@include('../templates/footer.html')
+
+    </div>
+  
+  <script>
+    $(function(){
+       var link = $('.m-menu-link');
+       var close =  $('.close_menu'); 
+       var menu = $('.m-menu');
+       link.on('click', function(event) {
+        event.preventDefault();
+        menu.toggleClass('.m-menu__active');
+       });
+       close.on('click', function(event) {
+       event.preventDefault();
+       menu.toggleClass('.m-menu__active');
+       })
+    });
+  </script>
+  
+  
+  
+  
+</body>
+</html>
+
+
