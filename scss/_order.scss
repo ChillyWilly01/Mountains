@@ -1,0 +1,71 @@
+.order_now{
+  background-color: #f6f4f4;
+  background: url(../image/offer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.order_block{
+  width: 100%;
+  padding-top: 12%;
+  padding-bottom: 25%;
+}
+
+.order_form{
+  display: inline-block;
+  width: 60%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-top: 3%;
+}  
+
+.order_form_name{
+  color: #848484;
+  font-size: 18px;
+  letter-spacing: 0.32px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 3.2% 11% 3.2% 2%;
+}
+
+.form_line{
+  width: 4px;
+  height: 35px;
+}
+
+.order_form_phone{
+  color: #848484;
+  font-size: 18px;
+  letter-spacing: 0.32px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 3.2% 11.8% 3.2% 2%;
+}
+
+.order_button{
+  margin-left: 1.4%;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  padding: 4% 10%;
+  left: 10%;
+}
+
+.order_footnote{
+  padding-top: 1%;
+}
+
+.order_lock{
+  width: 25px;
+  height: 17px;
+  padding-right: 11px;
+}
+
+.order_text{
+  color: #36aeea;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 0.28px;
+}

@@ -1,0 +1,236 @@
+.our_journal{
+  
+}
+
+.journal{
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+table{
+  position: relative;
+  width: 100%;
+  background: #ffffff;
+  border-spacing: 0;
+  box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.1);
+}
+
+.journal_block_heart_img,
+.journal_block_heart__img{
+  background-image: url(../image/layer-50.png);
+  background-color: #bab7d9;
+  background-repeat: no-repeat;
+}
+
+.icon{
+  display: none;
+}
+
+.table_1,
+.table_2,
+.table_3{
+  position: relative;
+}
+
+.table_1,
+.table_2,
+.table_3{
+    position: relative;
+    top: 200px;
+    margin: 0 auto 2%;
+    left: 180px;
+    transform: translate(-50%,-50%);
+    width: 381px;
+    height: 381px;
+    overflow: hidden;
+}
+
+.journal_block_heart__img,
+.journal_block_heart__text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .5s;
+}
+.table_1:hover .journal_block_heart__img {
+    top: 0;
+    left: -100%;
+}
+.journal_block_heart__text {
+    left: 100%;
+}
+.table_1:hover .journal_block_heart__text {
+    top: 0;
+    left: 0%;
+}
+
+.journal_block_leaf__img,
+.journal_block_leaf__text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .5s;
+}
+.table_2:hover .journal_block_leaf__img {
+    top: 0;
+    left: -100%;
+}
+.journal_block_leaf__text {
+    left: 100%;
+}
+.table_2:hover .journal_block_leaf__text {
+    top: 0;
+    left: 0%;
+}
+
+.journal_block_drop__img,
+.journal_block_drop__text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .5s;
+}
+.table_3:hover .journal_block_drop__img {
+    top: 0;
+    left: -100%;
+}
+.journal_block_drop__text {
+    left: 100%;
+}
+.table_3:hover .journal_block_drop__text {
+    top: 0;
+    left: 0%;
+}
+
+.journal_block_heart__text:after {
+  content: '';
+  position: absolute;
+  top: 7%;
+  left: 31.9%;
+  border: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+}
+.journal_block_title{
+  color: #16b5ef;
+  font-family: 'Open Sans';
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 12.54px;
+  text-transform: uppercase;
+  letter-spacing: 1.74px;
+  padding-top: 13%;
+}
+
+.journal_block_subtitle{
+  color: #212121;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24.23px;
+  text-transform: uppercase;
+  letter-spacing: 2.55px;
+}
+
+.love_title{
+  padding-top: 11%;
+  padding-bottom: 7%;
+}
+
+.journal_block_article{
+  color: #777777;
+  font-size: 15px;
+  line-height: 22.8px;
+  padding-bottom: 7%;
+}
+
+.journal_number{
+  color: #212121;
+  font-family: 'Times New Roman';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.1px;
+  padding-bottom: 10%;
+}
+
+.journal_block_drop__img,
+.journal_block_drop_img{
+  background-image: url(../image/layer-49.png);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.journal_block_drop_img{
+  width: 33.33%;
+
+
+    &:hover {
+      transition:all .4s ease-in-out;
+      z-index: 1;
+    }
+
+}
+
+.journal_block_drop_img:hover > .icon{
+  display: block;
+  width: 59px;
+  height: 74px;
+  margin: 0 auto;
+}
+
+.journal_block_leaf_text:after {
+  content: '';
+  position: absolute;
+  bottom: 41%;
+  left: 33.6%;
+  border: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+  transform: rotate(200grad)
+}
+
+.leaf_title{
+  padding-top: 12%;
+  padding-bottom: 7%;
+}
+
+.journal_block_leaf__img,
+.journal_block_leaf_img{
+  background-image: url(../image/forest.png);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.journal_block_leaf_img{
+  width: 33.33%;
+
+
+    &:hover {
+      display: block;
+      z-index: 1;
+    }
+
+}
+
+
+.journal_block_leaf_img:hover > .icon{
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  transition-timing-function: ease-in-out;
+}
+
+.journal_block_drop_text:after {
+  content: '';
+  position: absolute;
+  bottom: 50.4%;
+  right: 26.5%;
+  border: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+  transform: rotate(100grad);
+}
+
+.drop_title{
+  padding-bottom: 11%;
+  padding-top: 7%;
+}

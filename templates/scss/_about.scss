@@ -1,0 +1,45 @@
+.about{
+  background-color: #f6f4f4;
+}
+
+.about_block{
+  width: 100%;
+  height: 750px;
+  position: relative;
+  background: url(../pic/icons/map.png);
+  background-repeat: no-repeat;
+  background-position: 87px 35px;
+}
+
+.about_pic{
+  position: relative;
+  bottom: 327px;
+}
+
+.about_big_img{
+  position: relative;
+  left: 48%;
+  top: -28px;
+  width: 77%;
+  background-color: #ffffff;
+}
+
+.about_min_img{
+  position: relative;
+  left: 38%;
+  bottom: 314px;
+  width: 35%;
+  background-color: #ffffff;
+}
+
+.about_block_text{
+  position: relative;
+  top: 207px;
+}
+
+.about_article{
+  color: #949494;
+  font-size: 13px;
+  line-height: 27px;
+  padding-bottom: 2%;
+}

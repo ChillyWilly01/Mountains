@@ -1,0 +1,47 @@
+.gallery{
+  width: 100%;
+  position: relative;
+  display: block;
+  padding-bottom: 8%;
+  padding-top: 7%;
+  text-align: center;
+}
+
+.gallery_title{
+  color: #2c2e37;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3.51px;
+  padding-bottom: 7%;
+}
+
+.gallery_table{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+
+.gallery_col{
+  position: relative;
+  padding-right: 2%;
+
+    &:last-child{
+      padding-right: 0px;
+    }
+
+}
+
+
+.col_img{
+  display: flex;
+  align-content: flex-start;
+}
+
+.col1_img{
+  display: flex;
+  align-content: flex-end;
+  padding-top: 20px;
+}
