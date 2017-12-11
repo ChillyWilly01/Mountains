@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="Angular2HTML" injector-id="xml">
+      <display-name>h2/@class</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("class")).withParent(xmlTag().withLocalName(string().equalTo("h2")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>
